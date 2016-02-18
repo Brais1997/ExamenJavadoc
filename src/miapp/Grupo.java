@@ -32,9 +32,14 @@ public class Grupo {
         return nombreGrupo;
     }
 public String pedirNombre(){
-       String res=JOptionPane.showInputDialog("Introduzca el nombre de grupo");
-       return res;
-    }
+    String res;
+    do{
+      res=JOptionPane.showInputDialog("Introduzca el nombre de grupo");
+         
+      return res;
+    }while(res.equals(""));}
+
+
     /**
      *
      * @param nombreGrupo
