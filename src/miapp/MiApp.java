@@ -1,8 +1,18 @@
 package miapp;
 
+/**
+ *
+ * @author mmoureperez
+ */
 public class MiApp {
 
-    public static String[] main(String[] args) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+    /**
+     *
+     * @param args
+     */
+    public static void main(String[] args) {
+       
+    
+}
+
 }
