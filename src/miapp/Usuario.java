@@ -13,25 +13,26 @@ public class Usuario {
     private Libreta libreta;
 
     /**
-     *
+     *Builder default.
      */
     public Usuario() {
     }
 
     /**
-     *
+     *to add a new passbook, knowing this free which.
      */
     public void engadirLibreta() {
+        
     }
 
     /**
-     *
+     *The passbook happens to be empty
      */
     public void borrarLibreta() {
     }
 
     /**
-     *
+     *We edit the passbook, modifying groups or contacts
      */
     public void editarLibreta() {
     }

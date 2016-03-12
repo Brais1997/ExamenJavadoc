@@ -71,7 +71,7 @@ public class Contacto {
 
     /**
      *
-     * @return
+     * @return surname
      */
     public String getApellido() {
         return apellido;
@@ -87,7 +87,7 @@ public class Contacto {
 
     /**
      *
-     * @return
+     * @return telephone
      */
     public String getTelf() {
         return telf;
@@ -103,7 +103,7 @@ public class Contacto {
 
     /**
      *
-     * @return
+     * @return email
      */
     public String getEmail() {
         return email;

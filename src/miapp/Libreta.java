@@ -12,13 +12,10 @@ public class Libreta {
 
     private String propietario, dni;
 
-    /**
-     *
-     */
-    public Grupo[] arrayGrupo;
+        public Grupo[] arrayGrupo;
 
     /**
-     *
+     *Builder default.
      */
     public Libreta() {
     }
@@ -35,7 +32,7 @@ public class Libreta {
 
     /**
      *
-     * @return
+     * @return propietario.
      */
     public String getPropietario() {
         return propietario;
@@ -51,7 +48,7 @@ public class Libreta {
 
     /**
      *
-     * @return
+     * @return dni
      */
     public String getDni() {
         return dni;
@@ -67,7 +64,7 @@ public class Libreta {
 
     /**
      *
-     * @return
+     * @return arrayGrupo
      */
     public Grupo[] getArrayGrupo() {
         return arrayGrupo;

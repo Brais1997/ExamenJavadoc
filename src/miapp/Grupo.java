@@ -8,29 +8,27 @@ import javax.swing.JOptionPane;
  * @version 2.0
  */
 public class Grupo {
-    
-    
-
+   
     private String nombreGrupo=pedirNombre();
-        
-    /**
-     *
-     */
     public Contacto[] arrayContacto;
 
     /**
-     *
+     *Builder default.
      */
     public Grupo()  {
     }
 
     /**
      *
-     * @return
+     * @return nombreGrupo.
      */
     public String getNombreGrupo() {
         return nombreGrupo;
     }
+    /**
+     * In this method the name of the group gets.
+     * @return name
+     */
 public String pedirNombre(){
     String res;
     do{
@@ -50,7 +48,7 @@ public String pedirNombre(){
 
     /**
      *
-     * @return
+     * @return arrayContacts.
      */
     public Contacto[] getArrayContacto() {
         return arrayContacto;
