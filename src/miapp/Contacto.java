@@ -17,7 +17,7 @@ public class Contacto {
     private String email;
 
     /**
-     *
+     *Build default.
      */
     public Contacto() {
     }
@@ -39,7 +39,7 @@ public class Contacto {
 
     /**
      *
-     * @return
+     * @return id 
      */
     public int getId() {
         return id;
@@ -55,7 +55,7 @@ public class Contacto {
 
     /**
      *
-     * @return
+     * @return name the contacts.
      */
     public String getNombre() {
         return nombre;
@@ -63,7 +63,7 @@ public class Contacto {
 
     /**
      *
-     * @param nombre
+     * @param nombre name the contacts.
      */
     public void setNombre(String nombre) {
         this.nombre = nombre;
@@ -71,7 +71,7 @@ public class Contacto {
 
     /**
      *
-     * @return surname
+     * @return surname the contact.
      */
     public String getApellido() {
         return apellido;
@@ -79,7 +79,7 @@ public class Contacto {
 
     /**
      *
-     * @param apellido
+     * @param apellido surname the contacts.
      */
     public void setApellido(String apellido) {
         this.apellido = apellido;
@@ -87,7 +87,7 @@ public class Contacto {
 
     /**
      *
-     * @return telephone
+     * @return telephone the contacts
      */
     public String getTelf() {
         return telf;
@@ -95,7 +95,7 @@ public class Contacto {
 
     /**
      *
-     * @param telf
+     * @param telf telephone the contacts
      */
     public void setTelf(String telf) {
         this.telf = telf;
@@ -103,7 +103,7 @@ public class Contacto {
 
     /**
      *
-     * @return email
+     * @return email the contacts
      */
     public String getEmail() {
         return email;
@@ -111,7 +111,7 @@ public class Contacto {
 
     /**
      *
-     * @param email
+     * @param email the contacts
      */
     public void setEmail(String email) {
         this.email = email;

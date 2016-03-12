@@ -32,7 +32,7 @@ public class Libreta {
 
     /**
      *
-     * @return propietario.
+     * @return propietario. return the owner of the passbook.
      */
     public String getPropietario() {
         return propietario;
@@ -40,7 +40,7 @@ public class Libreta {
 
     /**
      *
-     * @param propietario
+     * @param propietario The owner of the passbook.
      */
     public void setPropietario(String propietario) {
         this.propietario = propietario;
@@ -48,7 +48,7 @@ public class Libreta {
 
     /**
      *
-     * @return dni
+     * @return dni return DNI of the owner.
      */
     public String getDni() {
         return dni;
@@ -56,7 +56,7 @@ public class Libreta {
 
     /**
      *
-     * @param dni
+     * @param dni dni of the owner.
      */
     public void setDni(String dni) {
         this.dni = dni;
@@ -72,7 +72,7 @@ public class Libreta {
 
     /**
      *
-     * @param arrayGrupo
+     * @param arrayGrupo 
      */
     public void setArrayGrupo(Grupo[] arrayGrupo) {
         this.arrayGrupo = arrayGrupo;
@@ -95,7 +95,7 @@ public class Libreta {
     }
 
     /**
-     * to add a new group, knowing this free which.
+     *  If there is free hollow a group is added
      */
     public void engadirGrupo() {
         int libre = cualLibreGrupo();

@@ -40,7 +40,7 @@ public String pedirNombre(){
 
     /**
      *
-     * @param nombreGrupo
+     * @param nombreGrupo name of the group.
      */
     public void setNombreGrupo(String nombreGrupo) {
         this.nombreGrupo = nombreGrupo;
